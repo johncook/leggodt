@@ -1,0 +1,7 @@
+columns:
+  css:
+    component:
+      css/columns.css:
+        minified: false
+  dependencies:
+    - core/jquery

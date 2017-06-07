@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function leggodt_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__quotation' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__columns_even' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__columns_2_uneven' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__leggodt_column_content' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__leggodt_column_content_2' => [
+      'base hook' => 'paragraph',
+    ],
+
+  ];
+}

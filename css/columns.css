@@ -1,0 +1,28 @@
+.paragraph--type--column {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.paragraph--type--column > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.paragraph--column-style--25-75 > div:last-child {
+    flex-grow: 3;
+}
+
+.paragraph--column-style--33-66 > div:last-child {
+    flex-grow: 2;
+}
+
+.paragraph--column-style--66-33 > div:first-child {
+    flex-grow: 2;
+}
+
+.paragraph--column-style--75-25 > div:first-child {
+    flex-grow: 3;
+}

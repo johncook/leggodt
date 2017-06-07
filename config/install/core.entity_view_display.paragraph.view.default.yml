@@ -1,0 +1,25 @@
+uuid: 679dae93-256e-4c87-93ba-3867f97d9056
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.view.leggodt_view
+    - paragraphs.paragraphs_type.view
+  module:
+    - viewfield
+id: paragraph.view.default
+targetEntityType: paragraph
+bundle: view
+mode: default
+content:
+  leggodt_view:
+    weight: 0
+    label: hidden
+    settings:
+      view_title: hidden
+      empty_view_title: hidden
+      always_build_output: 0
+    third_party_settings: {  }
+    type: viewfield_default
+    region: content
+hidden: {  }

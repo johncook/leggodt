@@ -1,0 +1,21 @@
+uuid: 8a9e0d22-6a6d-42d5-b4f2-0557c805e698
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_text
+    - paragraphs.paragraphs_type.simple
+  module:
+    - text
+id: paragraph.simple.leggodt_text
+field_name: leggodt_text
+entity_type: paragraph
+bundle: simple
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

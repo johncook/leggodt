@@ -1,0 +1,23 @@
+uuid: c57cc755-f2fa-4d0b-a1aa-eba2807c7000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_form
+    - paragraphs.paragraphs_type.form
+id: paragraph.form.leggodt_form
+field_name: leggodt_form
+entity_type: paragraph
+bundle: form
+label: Form
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: true
+field_type: entity_reference

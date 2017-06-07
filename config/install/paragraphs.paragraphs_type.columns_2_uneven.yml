@@ -1,0 +1,9 @@
+uuid: 6d3c5d6f-6c85-4db7-a29d-9fc074a2a898
+langcode: en
+status: true
+dependencies: {  }
+id: columns_2_uneven
+label: 'Columns (Two Uneven)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,33 @@
+uuid: 03a779f9-8d10-4952-931f-5a91d66652d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns_2_uneven.leggodt_column_content_2
+    - field.field.paragraph.columns_2_uneven.leggodt_column_style_2
+    - paragraphs.paragraphs_type.columns_2_uneven
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.columns_2_uneven.default
+targetEntityType: paragraph
+bundle: columns_2_uneven
+mode: default
+content:
+  leggodt_column_content_2:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  leggodt_column_style_2:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden: {  }
