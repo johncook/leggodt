@@ -1,0 +1,20 @@
+uuid: 26f53a47-8ed8-4aac-8a49-cc5d2b47fb60
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - paragraphs
+id: paragraph.leggodt_timeline_event_date
+field_name: leggodt_timeline_event_date
+entity_type: paragraph
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -17,6 +17,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__columns_3_uneven' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__timeline' => [
+      'base hook' => 'paragraph',
+    ],
     'field__paragraph__leggodt_column_content' => [
       'base hook' => 'paragraph',
     ],
@@ -24,6 +27,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
       'base hook' => 'paragraph',
     ],
     'field__paragraph__leggodt_column_content_3' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__leggodt_timeline_events' => [
       'base hook' => 'paragraph',
     ],
 

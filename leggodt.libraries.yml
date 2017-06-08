@@ -5,3 +5,10 @@ columns:
         minified: false
   dependencies:
     - core/jquery
+timeline:
+  css:
+    component:
+      css/timeline.css:
+        minified: false
+  dependencies:
+    - core/jquery

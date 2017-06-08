@@ -1,0 +1,9 @@
+uuid: dc335568-5886-4176-8c30-86b0b9cd0f6c
+langcode: en
+status: true
+dependencies: {  }
+id: timeline_event
+label: Event
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

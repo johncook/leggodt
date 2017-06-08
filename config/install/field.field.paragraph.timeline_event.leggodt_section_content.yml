@@ -1,0 +1,56 @@
+uuid: 38888ebf-e8f1-49d5-b1af-4e9180e3339c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_section_content
+    - paragraphs.paragraphs_type.timeline_event
+  module:
+    - entity_reference_revisions
+id: paragraph.timeline_event.leggodt_section_content
+field_name: leggodt_section_content
+entity_type: paragraph
+bundle: timeline_event
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      timeline_event:
+        weight: 11
+        enabled: false
+      block:
+        weight: 12
+        enabled: false
+      columns_2_uneven:
+        weight: 13
+        enabled: false
+      columns_3_uneven:
+        weight: 14
+        enabled: false
+      columns_even:
+        weight: 15
+        enabled: false
+      form:
+        weight: 16
+        enabled: false
+      image:
+        weight: 17
+        enabled: false
+      quotation:
+        weight: 18
+        enabled: false
+      simple:
+        weight: 19
+        enabled: false
+      view:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions
