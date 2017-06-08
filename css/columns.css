@@ -26,3 +26,27 @@
 .paragraph--column-style--75-25 > div:first-child {
     flex-grow: 3;
 }
+
+.paragraph--column-style--16-16-66 > div:last-child {
+    flex-grow: 4;
+}
+
+.paragraph--column-style--16-66-16 > div:nth-child(2) {
+    flex-grow: 4;
+}
+
+.paragraph--column-style--25-25-50 > div:last-child {
+    flex-grow: 2;
+}
+
+.paragraph--column-style--25-50-25 > div:nth-child(2) {
+    flex-grow: 2;
+}
+
+.paragraph--column-style--50-25-25 > div:first-child {
+    flex-grow: 2;
+}
+
+.paragraph--column-style--66-16-16 > div:first-child {
+    flex-grow: 4;
+}

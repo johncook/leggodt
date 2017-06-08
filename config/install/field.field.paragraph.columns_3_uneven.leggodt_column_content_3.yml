@@ -1,0 +1,53 @@
+uuid: 08608805-2246-44d5-9bc0-ee45cf7315fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_column_content_3
+    - paragraphs.paragraphs_type.columns_3_uneven
+  module:
+    - entity_reference_revisions
+id: paragraph.columns_3_uneven.leggodt_column_content_3
+field_name: leggodt_column_content_3
+entity_type: paragraph
+bundle: columns_3_uneven
+label: 'Column content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      columns_3_uneven:
+        weight: 10
+        enabled: false
+      block:
+        weight: 11
+        enabled: false
+      columns_2_uneven:
+        weight: 12
+        enabled: false
+      columns_even:
+        weight: 13
+        enabled: false
+      form:
+        weight: 14
+        enabled: false
+      image:
+        weight: 15
+        enabled: false
+      quotation:
+        weight: 16
+        enabled: false
+      simple:
+        weight: 17
+        enabled: false
+      view:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

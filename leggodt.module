@@ -14,10 +14,16 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__columns_2_uneven' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__columns_3_uneven' => [
+      'base hook' => 'paragraph',
+    ],
     'field__paragraph__leggodt_column_content' => [
       'base hook' => 'paragraph',
     ],
     'field__paragraph__leggodt_column_content_2' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__leggodt_column_content_3' => [
       'base hook' => 'paragraph',
     ],
 

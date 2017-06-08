@@ -1,0 +1,39 @@
+uuid: cd5f467a-63db-42f1-8e85-1d6f0cfaaacd
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.leggodt_column_style_3
+field_name: leggodt_column_style_3
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 16-16-66
+      label: '1/6 - 1/6 - 2/3'
+    -
+      value: 16-66-16
+      label: '1/6 - 2/3 - 1/6'
+    -
+      value: 25-25-50
+      label: '1/4 - 1/4 - 1/2'
+    -
+      value: 25-50-25
+      label: '1/4 - 1/2 - 1/4'
+    -
+      value: 50-25-25
+      label: '1/2 - 1/4 - 1/4'
+    -
+      value: 66-16-16
+      label: '2/3 - 1/6 - 1/6'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

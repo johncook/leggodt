@@ -1,0 +1,23 @@
+uuid: be43bcbe-e7a5-47e3-b8c3-52539d6dc2d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_column_style_3
+    - paragraphs.paragraphs_type.columns_3_uneven
+  module:
+    - options
+id: paragraph.columns_3_uneven.leggodt_column_style_3
+field_name: leggodt_column_style_3
+entity_type: paragraph
+bundle: columns_3_uneven
+label: Style
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 16-66-16
+default_value_callback: ''
+settings: {  }
+field_type: list_string
