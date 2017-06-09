@@ -23,7 +23,7 @@
     width: 20px;
     height: 80px;
     position: absolute;
-    top: -6px;
+    top: -5.5px;
     left: -25px;
 }
 
@@ -51,12 +51,14 @@
     border: 5px solid #000000;
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 
 .paragraph--type--timeline .paragraph--type--timeline-event > div {
     padding: 10px;
     flex-basis: 0;
     flex-grow: 3;
+    background-color: #ffffff;
 }
 
 .paragraph--type--timeline .paragraph--type--timeline-event > .field--name-leggodt-timeline-event-date {
