@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_hero.leggodt_background_image
+    - field.field.paragraph.leggodt_hero.leggodt_hero_invert
+    - field.field.paragraph.leggodt_hero.leggodt_hero_overlay
+    - field.field.paragraph.leggodt_hero.leggodt_hero_parallax
+    - field.field.paragraph.leggodt_hero.leggodt_hero_zoom
+    - field.field.paragraph.leggodt_hero.leggodt_section_content
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.leggodt_hero
+  module:
+    - entity_reference_revisions
+    - image
+id: paragraph.leggodt_hero.default
+targetEntityType: paragraph
+bundle: leggodt_hero
+mode: default
+content:
+  leggodt_background_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  leggodt_hero_invert:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_hero_overlay:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_hero_parallax:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_hero_zoom:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_section_content:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

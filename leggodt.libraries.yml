@@ -5,6 +5,16 @@ columns:
         minified: false
   dependencies:
     - core/jquery
+hero:
+  css:
+    component:
+      css/hero.css:
+        minified: false
+  js:
+    js/hero.js:
+      minified: false
+  dependencies:
+    - core/jquery
 timeline:
   css:
     component:

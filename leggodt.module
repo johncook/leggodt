@@ -17,6 +17,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__columns_3_uneven' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_hero' => [
+      'base hook' => 'paragraph',
+    ],
     'paragraph__timeline' => [
       'base hook' => 'paragraph',
     ],

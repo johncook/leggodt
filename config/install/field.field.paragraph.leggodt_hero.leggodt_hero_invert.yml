@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_hero_invert
+    - paragraphs.paragraphs_type.leggodt_hero
+  module:
+    - options
+id: paragraph.leggodt_hero.leggodt_hero_invert
+field_name: leggodt_hero_invert
+entity_type: paragraph
+bundle: leggodt_hero
+label: Invert
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
