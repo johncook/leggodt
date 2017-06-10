@@ -1,0 +1,8 @@
+uuid: 15098edd-9397-4413-8565-ddfc26b96c17
+langcode: en
+status: true
+dependencies: {  }
+id: leggodt_timeline_date
+label: 'Timeline Date'
+locked: false
+pattern: 'jS M Y'

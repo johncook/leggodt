@@ -28,7 +28,7 @@ content:
     label: hidden
     settings:
       timezone_override: ''
-      format_type: html_date
+      format_type: leggodt_timeline_date
     third_party_settings: {  }
     type: datetime_default
     region: content
