@@ -18,6 +18,11 @@ hero:
       minified: false
   dependencies:
     - core/jquery
+quotation:
+  css:
+    component:
+      css/quotation.css:
+        minified: false
 section:
   css:
     component:
