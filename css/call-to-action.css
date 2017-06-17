@@ -1,0 +1,48 @@
+.paragraph--type--leggodt-call-to-action {
+    text-align: center;
+}
+
+.paragraph--type--leggodt-call-to-action > a {
+    display: inline-block;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style > a {
+    color: #000000;
+    max-width: 500px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--light > a {
+    background-color: #f6f6f2;
+    box-shadow: 3px 3px #d6d6d2;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--light > a:hover {
+    background: #e6e6e2;
+    box-shadow: 3px 3px #c6c6c2;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--medium > a {
+    color: #fffeff;
+    background-color: #1d84c3;
+    box-shadow: 3px 3px #17689c;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--medium > a:hover {
+    background: #145b88;
+    box-shadow: 3px 3px #10486c;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--dark > a {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #292929;
+    box-shadow: 3px 3px #494949;
+}
+
+.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--dark > a:hover {
+    background: #393939;
+    box-shadow: 3px 3px #595959;
+}

@@ -1,10 +1,13 @@
+call-to-action:
+  css:
+    component:
+      css/call-to-action.css:
+        minified: false
 columns:
   css:
     component:
       css/columns.css:
         minified: false
-  dependencies:
-    - core/jquery
 hero:
   css:
     component:
@@ -25,5 +28,3 @@ timeline:
     component:
       css/timeline.css:
         minified: false
-  dependencies:
-    - core/jquery

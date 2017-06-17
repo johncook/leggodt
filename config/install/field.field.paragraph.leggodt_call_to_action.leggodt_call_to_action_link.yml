@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_call_to_action_link
+    - paragraphs.paragraphs_type.leggodt_call_to_action
+  module:
+    - link
+id: paragraph.leggodt_call_to_action.leggodt_call_to_action_link
+field_name: leggodt_call_to_action_link
+entity_type: paragraph
+bundle: leggodt_call_to_action
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

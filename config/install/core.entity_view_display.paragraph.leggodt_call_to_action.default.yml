@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_link
+    - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_style
+    - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_text
+    - paragraphs.paragraphs_type.leggodt_call_to_action
+  module:
+    - link
+    - options
+id: paragraph.leggodt_call_to_action.default
+targetEntityType: paragraph
+bundle: leggodt_call_to_action
+mode: default
+content:
+  leggodt_call_to_action_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  leggodt_call_to_action_style:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  leggodt_call_to_action_text:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
