@@ -1,3 +1,17 @@
+accordion:
+  css:
+    component:
+      css/accordion.css:
+        minified: false
+  js:
+    js/accordion.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.accordion
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
 aside:
   css:
     componenet:

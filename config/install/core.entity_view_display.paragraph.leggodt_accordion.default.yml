@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_accordion.leggodt_accordion_sections
+    - paragraphs.paragraphs_type.leggodt_accordion
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_accordion.default
+targetEntityType: paragraph
+bundle: leggodt_accordion
+mode: default
+content:
+  leggodt_accordion_sections:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden: {  }

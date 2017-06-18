@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_accordion_section.leggodt_heading_text
+    - field.field.paragraph.leggodt_accordion_section.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_accordion_section
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_accordion_section.default
+targetEntityType: paragraph
+bundle: leggodt_accordion_section
+mode: default
+content:
+  leggodt_heading_text:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  leggodt_section_content:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden: {  }

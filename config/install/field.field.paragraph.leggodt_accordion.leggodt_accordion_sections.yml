@@ -1,0 +1,87 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_accordion_sections
+    - paragraphs.paragraphs_type.leggodt_accordion
+    - paragraphs.paragraphs_type.leggodt_accordion_section
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_accordion.leggodt_accordion_sections
+field_name: leggodt_accordion_sections
+entity_type: paragraph
+bundle: leggodt_accordion
+label: Sections
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      leggodt_accordion_section: leggodt_accordion_section
+    target_bundles_drag_drop:
+      leggodt_accordion:
+        weight: 21
+        enabled: false
+      accordion:
+        weight: 22
+        enabled: false
+      block:
+        weight: 23
+        enabled: false
+      columns_2_uneven:
+        weight: 24
+        enabled: false
+      columns_3_uneven:
+        weight: 25
+        enabled: false
+      columns_even:
+        weight: 26
+        enabled: false
+      form:
+        weight: 27
+        enabled: false
+      heading:
+        weight: 28
+        enabled: false
+      image:
+        weight: 29
+        enabled: false
+      leggodt_accordion_section:
+        enabled: true
+        weight: 30
+      leggodt_aside:
+        weight: 31
+        enabled: false
+      leggodt_call_to_action:
+        weight: 32
+        enabled: false
+      leggodt_hero:
+        weight: 33
+        enabled: false
+      leggodt_pull_quote:
+        weight: 34
+        enabled: false
+      leggodt_section:
+        weight: 35
+        enabled: false
+      quotation:
+        weight: 36
+        enabled: false
+      simple:
+        weight: 37
+        enabled: false
+      timeline:
+        weight: 38
+        enabled: false
+      timeline_event:
+        weight: 39
+        enabled: false
+      view:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

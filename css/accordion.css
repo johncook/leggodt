@@ -1,0 +1,5 @@
+.leggodt-accordion-header a,
+.leggodt-accordion-header a:hover,
+.leggodt-accordion-header a:focus {
+    border: none;
+}
