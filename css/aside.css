@@ -1,0 +1,21 @@
+.paragraph--type--leggodt-aside {
+    clear: both;
+    background-color: #f6f6f2;
+    padding: 20px;
+    width: 25%;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.paragraph--type--leggodt-aside.paragraph--size--33 {
+    width: 33%;
+}
+
+.paragraph--type--leggodt-aside.paragraph--size--50 {
+    width: 50%;
+}
+
+.paragraph--type--leggodt-aside.paragraph--postion--left {
+    float: left;
+    margin: 0 20px 20px 0;
+}

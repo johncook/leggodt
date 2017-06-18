@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_aside_position
+    - paragraphs.paragraphs_type.leggodt_aside
+  module:
+    - options
+id: paragraph.leggodt_aside.leggodt_aside_position
+field_name: leggodt_aside_position
+entity_type: paragraph
+bundle: leggodt_aside
+label: Position
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: right
+default_value_callback: ''
+settings: {  }
+field_type: list_string

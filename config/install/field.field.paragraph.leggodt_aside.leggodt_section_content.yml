@@ -1,0 +1,76 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_aside
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_aside.leggodt_section_content
+field_name: leggodt_section_content
+entity_type: paragraph
+bundle: leggodt_aside
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      leggodt_aside:
+        weight: 18
+        enabled: false
+      block:
+        weight: 19
+        enabled: false
+      columns_2_uneven:
+        weight: 20
+        enabled: false
+      columns_3_uneven:
+        weight: 21
+        enabled: false
+      columns_even:
+        weight: 22
+        enabled: false
+      form:
+        weight: 23
+        enabled: false
+      heading:
+        weight: 24
+        enabled: false
+      image:
+        weight: 25
+        enabled: false
+      leggodt_call_to_action:
+        weight: 26
+        enabled: false
+      leggodt_hero:
+        weight: 27
+        enabled: false
+      leggodt_pull_quote:
+        weight: 28
+        enabled: false
+      leggodt_section:
+        weight: 29
+        enabled: false
+      quotation:
+        weight: 30
+        enabled: false
+      simple:
+        weight: 31
+        enabled: false
+      timeline:
+        weight: 32
+        enabled: false
+      timeline_event:
+        weight: 33
+        enabled: false
+      view:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

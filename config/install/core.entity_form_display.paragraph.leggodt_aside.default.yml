@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_aside.leggodt_aside_position
+    - field.field.paragraph.leggodt_aside.leggodt_aside_size
+    - field.field.paragraph.leggodt_aside.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_aside
+  module:
+    - paragraphs
+id: paragraph.leggodt_aside.default
+targetEntityType: paragraph
+bundle: leggodt_aside
+mode: default
+content:
+  leggodt_aside_position:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_aside_size:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_section_content:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

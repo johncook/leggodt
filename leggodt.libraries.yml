@@ -1,3 +1,8 @@
+aside:
+  css:
+    componenet:
+      css/aside.css:
+        minified: false
 call-to-action:
   css:
     component:

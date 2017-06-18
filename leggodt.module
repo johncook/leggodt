@@ -20,6 +20,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__heading' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_aside' => [
+      'base hook' => 'paragraph',
+    ],
     'paragraph__leggodt_call_to_action' => [
       'base hook' => 'paragraph',
     ],

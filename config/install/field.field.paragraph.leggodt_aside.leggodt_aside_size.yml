@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_aside_size
+    - paragraphs.paragraphs_type.leggodt_aside
+  module:
+    - options
+id: paragraph.leggodt_aside.leggodt_aside_size
+field_name: leggodt_aside_size
+entity_type: paragraph
+bundle: leggodt_aside
+label: Size
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '25'
+default_value_callback: ''
+settings: {  }
+field_type: list_string
