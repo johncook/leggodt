@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: leggodt_pull_quote
+label: 'Pull Quote'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

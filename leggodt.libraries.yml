@@ -18,6 +18,11 @@ hero:
       minified: false
   dependencies:
     - core/jquery
+pull-quote:
+  css:
+    component:
+      css/pull-quote.css:
+        minified: false
 quotation:
   css:
     component:

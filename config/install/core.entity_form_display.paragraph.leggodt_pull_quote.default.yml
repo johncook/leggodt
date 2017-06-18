@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_pull_quote.leggodt_quote
+    - paragraphs.paragraphs_type.leggodt_pull_quote
+  module:
+    - text
+id: paragraph.leggodt_pull_quote.default
+targetEntityType: paragraph
+bundle: leggodt_pull_quote
+mode: default
+content:
+  leggodt_quote:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

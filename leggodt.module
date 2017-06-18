@@ -23,6 +23,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__leggodt_hero' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_pull_quote' => [
+      'base hook' => 'paragraph',
+    ],
     'paragraph__leggodt_section' => [
       'base hook' => 'paragraph',
     ],
