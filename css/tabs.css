@@ -1,0 +1,5 @@
+.paragraph--type--leggodt-tabs > ul a,
+.paragraph--type--leggodt-tabs > ul a:hover,
+.paragraph--type--leggodt-tabs > ul a:focus {
+    border: none;
+}

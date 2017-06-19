@@ -52,6 +52,20 @@ section:
     component:
       css/section.css:
         minified: false
+tabs:
+  css:
+    component:
+      css/tabs.css:
+        minified: false
+  js:
+    js/tabs.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.tabs
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
 timeline:
   css:
     component:

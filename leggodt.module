@@ -38,6 +38,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__leggodt_section' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_tabs' => [
+      'base hook' => 'paragraph',
+    ],
     'paragraph__timeline' => [
       'base hook' => 'paragraph',
     ],

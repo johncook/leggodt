@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_heading_text
+    - paragraphs.paragraphs_type.leggodt_tabs_section
+id: paragraph.leggodt_tabs_section.leggodt_heading_text
+field_name: leggodt_heading_text
+entity_type: paragraph
+bundle: leggodt_tabs_section
+label: Heading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
