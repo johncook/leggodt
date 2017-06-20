@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_carousel
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_carousel.leggodt_section_content
+field_name: leggodt_section_content
+entity_type: paragraph
+bundle: leggodt_carousel
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      leggodt_carousel:
+        weight: 23
+        enabled: false
+      block:
+        weight: 24
+        enabled: false
+      columns_2_uneven:
+        weight: 25
+        enabled: false
+      columns_3_uneven:
+        weight: 26
+        enabled: false
+      columns_even:
+        weight: 27
+        enabled: false
+      form:
+        weight: 28
+        enabled: false
+      heading:
+        weight: 29
+        enabled: false
+      image:
+        weight: 30
+        enabled: false
+      leggodt_accordion:
+        weight: 31
+        enabled: false
+      leggodt_accordion_section:
+        weight: 32
+        enabled: false
+      leggodt_aside:
+        weight: 33
+        enabled: false
+      leggodt_call_to_action:
+        weight: 34
+        enabled: false
+      leggodt_hero:
+        weight: 35
+        enabled: false
+      leggodt_pull_quote:
+        weight: 36
+        enabled: false
+      leggodt_section:
+        weight: 37
+        enabled: false
+      leggodt_tabs:
+        weight: 38
+        enabled: false
+      leggodt_tabs_section:
+        weight: 39
+        enabled: false
+      quotation:
+        weight: 40
+        enabled: false
+      simple:
+        weight: 41
+        enabled: false
+      timeline:
+        weight: 42
+        enabled: false
+      timeline_event:
+        weight: 43
+        enabled: false
+      view:
+        weight: 44
+        enabled: false
+field_type: entity_reference_revisions

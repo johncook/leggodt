@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_carousel.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_carousel
+  module:
+    - paragraphs
+id: paragraph.leggodt_carousel.default
+targetEntityType: paragraph
+bundle: leggodt_carousel
+mode: default
+content:
+  leggodt_section_content:
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

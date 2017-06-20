@@ -29,6 +29,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__leggodt_call_to_action' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_carousel' => [
+      'base hook' => 'paragraph',
+    ],
     'paragraph__leggodt_hero' => [
       'base hook' => 'paragraph',
     ],
