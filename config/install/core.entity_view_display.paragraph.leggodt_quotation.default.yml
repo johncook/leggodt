@@ -1,15 +1,16 @@
+uuid: 22bc2766-8046-4c0c-a34e-aa664179659f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.quotation.leggodt_citation
-    - field.field.paragraph.quotation.leggodt_quote
-    - paragraphs.paragraphs_type.quotation
+    - field.field.paragraph.leggodt_quotation.leggodt_citation
+    - field.field.paragraph.leggodt_quotation.leggodt_quote
+    - paragraphs.paragraphs_type.leggodt_quotation
   module:
     - text
-id: paragraph.quotation.default
+id: paragraph.leggodt_quotation.default
 targetEntityType: paragraph
-bundle: quotation
+bundle: leggodt_quotation
 mode: default
 content:
   leggodt_citation:

@@ -1,18 +1,18 @@
+uuid: 8574710a-d3d3-42a2-a414-977bb4bb6a06
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.columns_even.leggodt_column_content
-    - paragraphs.paragraphs_type.columns_even
+    - field.field.paragraph.leggodt_columns_even.leggodt_column_content
+    - paragraphs.paragraphs_type.leggodt_columns_even
   module:
     - paragraphs
-id: paragraph.columns_even.default
+id: paragraph.leggodt_columns_even.default
 targetEntityType: paragraph
-bundle: columns_even
+bundle: leggodt_columns_even
 mode: default
 content:
   leggodt_column_content:
-    type: entity_reference_paragraphs
     weight: 0
     settings:
       title: Paragraph
@@ -22,6 +22,7 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
 hidden:
   created: true

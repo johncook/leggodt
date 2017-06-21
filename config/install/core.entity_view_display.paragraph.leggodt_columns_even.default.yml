@@ -1,23 +1,24 @@
+uuid: e15a03a3-4ecb-42b9-9f77-384c1d4626f5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.columns_even.leggodt_column_content
-    - paragraphs.paragraphs_type.columns_even
+    - field.field.paragraph.leggodt_columns_even.leggodt_column_content
+    - paragraphs.paragraphs_type.leggodt_columns_even
   module:
     - entity_reference_revisions
-id: paragraph.columns_even.default
+id: paragraph.leggodt_columns_even.default
 targetEntityType: paragraph
-bundle: columns_even
+bundle: leggodt_columns_even
 mode: default
 content:
   leggodt_column_content:
-    type: entity_reference_revisions_entity_view
     weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
     region: content
 hidden: {  }

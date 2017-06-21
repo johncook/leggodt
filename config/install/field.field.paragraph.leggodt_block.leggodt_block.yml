@@ -3,15 +3,15 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_block
-    - paragraphs.paragraphs_type.block
-id: paragraph.block.leggodt_block
+    - paragraphs.paragraphs_type.leggodt_block
+id: paragraph.leggodt_block.leggodt_block
 field_name: leggodt_block
 entity_type: paragraph
-bundle: block
+bundle: leggodt_block
 label: Block
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

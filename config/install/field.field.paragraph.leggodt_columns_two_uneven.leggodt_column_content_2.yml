@@ -1,0 +1,95 @@
+uuid: 9b6b5911-8829-4ce0-a112-f81503b05614
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_column_content_2
+    - paragraphs.paragraphs_type.leggodt_columns_two_uneven
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_columns_two_uneven.leggodt_column_content_2
+field_name: leggodt_column_content_2
+entity_type: paragraph
+bundle: leggodt_columns_two_uneven
+label: 'Column content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      leggodt_columns_two_uneven:
+        weight: 24
+        enabled: false
+      columns_2_uneven:
+        weight: 25
+        enabled: false
+      form:
+        weight: 26
+        enabled: false
+      image:
+        weight: 27
+        enabled: false
+      leggodt_accordion:
+        weight: 28
+        enabled: false
+      leggodt_accordion_section:
+        weight: 29
+        enabled: false
+      leggodt_aside:
+        weight: 30
+        enabled: false
+      leggodt_block:
+        weight: 31
+        enabled: false
+      leggodt_call_to_action:
+        weight: 32
+        enabled: false
+      leggodt_carousel:
+        weight: 33
+        enabled: false
+      leggodt_columns_even:
+        weight: 34
+        enabled: false
+      leggodt_columns_three_uneven:
+        weight: 35
+        enabled: false
+      leggodt_heading:
+        weight: 36
+        enabled: false
+      leggodt_hero:
+        weight: 37
+        enabled: false
+      leggodt_pull_quote:
+        weight: 38
+        enabled: false
+      leggodt_quotation:
+        weight: 39
+        enabled: false
+      leggodt_section:
+        weight: 40
+        enabled: false
+      leggodt_tabs:
+        weight: 41
+        enabled: false
+      leggodt_tabs_section:
+        weight: 42
+        enabled: false
+      simple:
+        weight: 43
+        enabled: false
+      timeline:
+        weight: 44
+        enabled: false
+      timeline_event:
+        weight: 45
+        enabled: false
+      view:
+        weight: 46
+        enabled: false
+field_type: entity_reference_revisions

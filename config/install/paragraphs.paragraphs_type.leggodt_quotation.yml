@@ -1,8 +1,9 @@
+uuid: 4657e535-268d-41bf-a63c-236a0c277120
 langcode: en
 status: true
 dependencies: {  }
-id: columns_2_uneven
-label: 'Columns (Two Uneven)'
+id: leggodt_quotation
+label: Quotation
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

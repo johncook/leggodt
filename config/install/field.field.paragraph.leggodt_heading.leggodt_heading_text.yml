@@ -1,17 +1,18 @@
+uuid: 373294e3-58ce-4a71-8e47-8530f240de03
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_heading_text
-    - paragraphs.paragraphs_type.heading
-id: paragraph.heading.leggodt_heading_text
+    - paragraphs.paragraphs_type.leggodt_heading
+id: paragraph.leggodt_heading.leggodt_heading_text
 field_name: leggodt_heading_text
 entity_type: paragraph
-bundle: heading
+bundle: leggodt_heading
 label: Text
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

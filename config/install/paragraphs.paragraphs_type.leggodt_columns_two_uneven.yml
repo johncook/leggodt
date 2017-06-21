@@ -1,0 +1,9 @@
+uuid: 8c60512a-ec8f-411d-aa44-5af1281831ea
+langcode: en
+status: true
+dependencies: {  }
+id: leggodt_columns_two_uneven
+label: 'Columns (Two Uneven)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

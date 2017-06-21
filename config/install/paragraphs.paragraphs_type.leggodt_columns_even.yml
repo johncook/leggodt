@@ -1,8 +1,9 @@
+uuid: 3c4f0525-83c9-4f27-b204-033cbc5ee828
 langcode: en
 status: true
 dependencies: {  }
-id: columns_3_uneven
-label: 'Columns (Three Uneven)'
+id: leggodt_columns_even
+label: 'Columns (Even)'
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

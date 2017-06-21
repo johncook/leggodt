@@ -1,19 +1,19 @@
+uuid: 88a1a613-8acc-4499-be3e-0aa401e3c5fc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.columns_2_uneven.leggodt_column_content_2
-    - field.field.paragraph.columns_2_uneven.leggodt_column_style_2
-    - paragraphs.paragraphs_type.columns_2_uneven
+    - field.field.paragraph.leggodt_columns_three_uneven.leggodt_column_content_3
+    - field.field.paragraph.leggodt_columns_three_uneven.leggodt_column_style_3
+    - paragraphs.paragraphs_type.leggodt_columns_three_uneven
   module:
     - paragraphs
-id: paragraph.columns_2_uneven.default
+id: paragraph.leggodt_columns_three_uneven.default
 targetEntityType: paragraph
-bundle: columns_2_uneven
+bundle: leggodt_columns_three_uneven
 mode: default
 content:
-  leggodt_column_content_2:
-    type: entity_reference_paragraphs
+  leggodt_column_content_3:
     weight: 1
     settings:
       title: Paragraph
@@ -23,8 +23,9 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
-  leggodt_column_style_2:
+  leggodt_column_style_3:
     weight: 0
     settings: {  }
     third_party_settings: {  }

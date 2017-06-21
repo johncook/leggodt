@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.block.leggodt_block
-    - paragraphs.paragraphs_type.block
-id: paragraph.block.default
+    - field.field.paragraph.leggodt_block.leggodt_block
+    - paragraphs.paragraphs_type.leggodt_block
+id: paragraph.leggodt_block.default
 targetEntityType: paragraph
-bundle: block
+bundle: leggodt_block
 mode: default
 content:
   leggodt_block:

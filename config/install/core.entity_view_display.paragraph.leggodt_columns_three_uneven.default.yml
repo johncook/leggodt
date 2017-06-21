@@ -1,26 +1,27 @@
+uuid: 3e6be37e-97c4-4f9d-b83a-6daccc11b1ae
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.columns_3_uneven.leggodt_column_content_3
-    - field.field.paragraph.columns_3_uneven.leggodt_column_style_3
-    - paragraphs.paragraphs_type.columns_3_uneven
+    - field.field.paragraph.leggodt_columns_three_uneven.leggodt_column_content_3
+    - field.field.paragraph.leggodt_columns_three_uneven.leggodt_column_style_3
+    - paragraphs.paragraphs_type.leggodt_columns_three_uneven
   module:
     - entity_reference_revisions
     - options
-id: paragraph.columns_3_uneven.default
+id: paragraph.leggodt_columns_three_uneven.default
 targetEntityType: paragraph
-bundle: columns_3_uneven
+bundle: leggodt_columns_three_uneven
 mode: default
 content:
   leggodt_column_content_3:
-    type: entity_reference_revisions_entity_view
     weight: 1
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
     region: content
   leggodt_column_style_3:
     weight: 0

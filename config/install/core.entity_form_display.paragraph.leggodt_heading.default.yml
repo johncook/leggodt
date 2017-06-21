@@ -1,13 +1,14 @@
+uuid: 4968d5a3-6bff-41ac-85ca-39f342767e60
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.heading.leggodt_heading_level
-    - field.field.paragraph.heading.leggodt_heading_text
-    - paragraphs.paragraphs_type.heading
-id: paragraph.heading.default
+    - field.field.paragraph.leggodt_heading.leggodt_heading_level
+    - field.field.paragraph.leggodt_heading.leggodt_heading_text
+    - paragraphs.paragraphs_type.leggodt_heading
+id: paragraph.leggodt_heading.default
 targetEntityType: paragraph
-bundle: heading
+bundle: leggodt_heading
 mode: default
 content:
   leggodt_heading_level:

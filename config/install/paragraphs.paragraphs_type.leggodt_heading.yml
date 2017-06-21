@@ -1,8 +1,9 @@
+uuid: 811145dc-732c-43e4-8db8-8ccd0a983bfe
 langcode: en
 status: true
 dependencies: {  }
-id: columns_even
-label: 'Columns (Even)'
+id: leggodt_heading
+label: Heading
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

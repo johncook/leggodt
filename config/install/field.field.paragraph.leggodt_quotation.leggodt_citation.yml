@@ -1,17 +1,18 @@
+uuid: 374f5ed6-88bc-467d-aeb7-add6d89b4211
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_citation
-    - paragraphs.paragraphs_type.quotation
-id: paragraph.quotation.leggodt_citation
+    - paragraphs.paragraphs_type.leggodt_quotation
+id: paragraph.leggodt_quotation.leggodt_citation
 field_name: leggodt_citation
 entity_type: paragraph
-bundle: quotation
+bundle: leggodt_quotation
 label: Citation
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

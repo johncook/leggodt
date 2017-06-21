@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: block
+id: leggodt_block
 label: Block
 icon_uuid: null
 description: ''
