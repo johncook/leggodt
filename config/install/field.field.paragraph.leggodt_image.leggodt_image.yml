@@ -3,17 +3,17 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_image
-    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.leggodt_image
   module:
     - image
-id: paragraph.image.leggodt_image
+id: paragraph.leggodt_image.leggodt_image
 field_name: leggodt_image
 entity_type: paragraph
-bundle: image
+bundle: leggodt_image
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

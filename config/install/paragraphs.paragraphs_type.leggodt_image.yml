@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: image
+id: leggodt_image
 label: Image
 icon_uuid: null
 description: ''

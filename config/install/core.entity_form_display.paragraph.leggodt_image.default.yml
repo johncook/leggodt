@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.image.leggodt_image
+    - field.field.paragraph.leggodt_image.leggodt_image
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.leggodt_image
   module:
     - image
-id: paragraph.image.default
+id: paragraph.leggodt_image.default
 targetEntityType: paragraph
-bundle: image
+bundle: leggodt_image
 mode: default
 content:
   leggodt_image:
