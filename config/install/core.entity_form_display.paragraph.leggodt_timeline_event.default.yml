@@ -1,20 +1,20 @@
+uuid: 7dfd4859-b90d-4ebd-a204-260f67f2717f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.timeline_event.leggodt_section_content
-    - field.field.paragraph.timeline_event.leggodt_timeline_event_date
-    - paragraphs.paragraphs_type.timeline_event
+    - field.field.paragraph.leggodt_timeline_event.leggodt_section_content
+    - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_date
+    - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - datetime
     - paragraphs
-id: paragraph.timeline_event.default
+id: paragraph.leggodt_timeline_event.default
 targetEntityType: paragraph
-bundle: timeline_event
+bundle: leggodt_timeline_event
 mode: default
 content:
   leggodt_section_content:
-    type: entity_reference_paragraphs
     weight: 1
     settings:
       title: Paragraph
@@ -24,6 +24,7 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
   leggodt_timeline_event_date:
     weight: 0

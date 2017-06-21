@@ -1,8 +1,9 @@
+uuid: 7cf309bd-5ab3-4f89-baaa-4ce2ac8277cc
 langcode: en
 status: true
 dependencies: {  }
-id: timeline
-label: Timeline
+id: leggodt_timeline_event
+label: Event
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

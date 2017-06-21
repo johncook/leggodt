@@ -1,18 +1,18 @@
+uuid: e78fd9ab-02e5-460d-9f6b-05d37ef59247
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.timeline.leggodt_timeline_events
-    - paragraphs.paragraphs_type.timeline
+    - field.field.paragraph.leggodt_timeline.leggodt_timeline_events
+    - paragraphs.paragraphs_type.leggodt_timeline
   module:
     - paragraphs
-id: paragraph.timeline.default
+id: paragraph.leggodt_timeline.default
 targetEntityType: paragraph
-bundle: timeline
+bundle: leggodt_timeline
 mode: default
 content:
   leggodt_timeline_events:
-    type: entity_reference_paragraphs
     weight: 0
     settings:
       title: Paragraph
@@ -22,6 +22,7 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
 hidden:
   created: true

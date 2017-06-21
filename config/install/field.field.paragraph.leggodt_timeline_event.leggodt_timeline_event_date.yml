@@ -1,19 +1,20 @@
+uuid: ccc3c4b9-488f-4684-a030-2bb0eefb1d64
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_timeline_event_date
-    - paragraphs.paragraphs_type.timeline_event
+    - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - datetime
-id: paragraph.timeline_event.leggodt_timeline_event_date
+id: paragraph.leggodt_timeline_event.leggodt_timeline_event_date
 field_name: leggodt_timeline_event_date
 entity_type: paragraph
-bundle: timeline_event
+bundle: leggodt_timeline_event
 label: Date
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

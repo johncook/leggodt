@@ -1,26 +1,27 @@
+uuid: e8fcce9b-5f32-48b7-850d-3ebed17ec756
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.timeline_event.leggodt_section_content
-    - field.field.paragraph.timeline_event.leggodt_timeline_event_date
-    - paragraphs.paragraphs_type.timeline_event
+    - field.field.paragraph.leggodt_timeline_event.leggodt_section_content
+    - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_date
+    - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - datetime
     - entity_reference_revisions
-id: paragraph.timeline_event.default
+id: paragraph.leggodt_timeline_event.default
 targetEntityType: paragraph
-bundle: timeline_event
+bundle: leggodt_timeline_event
 mode: default
 content:
   leggodt_section_content:
-    type: entity_reference_revisions_entity_view
     weight: 1
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
     region: content
   leggodt_timeline_event_date:
     weight: 0
