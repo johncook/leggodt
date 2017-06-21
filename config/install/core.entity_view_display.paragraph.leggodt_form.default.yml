@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.form.leggodt_form
-    - paragraphs.paragraphs_type.form
+    - field.field.paragraph.leggodt_form.leggodt_form
+    - paragraphs.paragraphs_type.leggodt_form
   module:
     - contact_formatter
-id: paragraph.form.default
+id: paragraph.leggodt_form.default
 targetEntityType: paragraph
-bundle: form
+bundle: leggodt_form
 mode: default
 content:
   leggodt_form:

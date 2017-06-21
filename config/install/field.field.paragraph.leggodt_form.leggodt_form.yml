@@ -3,20 +3,20 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_form
-    - paragraphs.paragraphs_type.form
-id: paragraph.form.leggodt_form
+    - paragraphs.paragraphs_type.leggodt_form
+id: paragraph.leggodt_form.leggodt_form
 field_name: leggodt_form
 entity_type: paragraph
-bundle: form
+bundle: leggodt_form
 label: Form
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:contact_form'
   handler_settings:
     target_bundles: null
-    auto_create: true
+    auto_create: false
 field_type: entity_reference

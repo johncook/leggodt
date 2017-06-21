@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: form
+id: leggodt_form
 label: Form
 icon_uuid: null
 description: ''
