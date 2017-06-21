@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-id: simple
-label: Simple
+id: leggodt_formatted_text
+label: Text
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

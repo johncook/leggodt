@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.simple.leggodt_text
-    - paragraphs.paragraphs_type.simple
+    - field.field.paragraph.leggodt_formatted_text.leggodt_text
+    - paragraphs.paragraphs_type.leggodt_formatted_text
   module:
     - text
-id: paragraph.simple.default
+id: paragraph.leggodt_formatted_text.default
 targetEntityType: paragraph
-bundle: simple
+bundle: leggodt_formatted_text
 mode: default
 content:
   leggodt_text:
