@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: view
+id: leggodt_view
 label: View
 icon_uuid: null
 description: ''

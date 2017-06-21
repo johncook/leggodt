@@ -3,17 +3,17 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_view
-    - paragraphs.paragraphs_type.view
+    - paragraphs.paragraphs_type.leggodt_view
   module:
     - viewfield
-id: paragraph.view.leggodt_view
+id: paragraph.leggodt_view.leggodt_view
 field_name: leggodt_view
 entity_type: paragraph
-bundle: view
+bundle: leggodt_view
 label: View
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.view.leggodt_view
-    - paragraphs.paragraphs_type.view
+    - field.field.paragraph.leggodt_view.leggodt_view
+    - paragraphs.paragraphs_type.leggodt_view
   module:
     - viewfield
-id: paragraph.view.default
+id: paragraph.leggodt_view.default
 targetEntityType: paragraph
-bundle: view
+bundle: leggodt_view
 mode: default
 content:
   leggodt_view:
