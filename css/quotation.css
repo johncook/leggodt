@@ -1,4 +1,4 @@
-.paragraph--type--quotation {
+.paragraph--type--leggodt-quotation {
     background: #f7f7f7;
     border-left: 1px solid #bbb;
     font-style: italic;
@@ -6,7 +6,7 @@
     padding: 0.5em 10px;
 }
 
-.paragraph--type--quotation > blockquote {
+.paragraph--type--leggodt-quotation > blockquote {
     background: none;
     border: none;
     font-style: inherit;
@@ -14,10 +14,10 @@
     padding: 0;
 }
 
-.paragraph--type--quotation > footer {
+.paragraph--type--leggodt-quotation > footer {
     text-align: right;
 }
 
-.paragraph--type--quotation > footer:before {
+.paragraph--type--leggodt-quotation > footer:before {
     content: '\2014\00A0';
 }

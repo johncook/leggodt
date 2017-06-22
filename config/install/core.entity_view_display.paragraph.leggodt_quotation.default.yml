@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_quotation.leggodt_citation
+    - field.field.paragraph.leggodt_quotation.leggodt_quote
+    - paragraphs.paragraphs_type.leggodt_quotation
+  module:
+    - text
+id: paragraph.leggodt_quotation.default
+targetEntityType: paragraph
+bundle: leggodt_quotation
+mode: default
+content:
+  leggodt_citation:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  leggodt_quote:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -5,19 +5,19 @@
  */
 function leggodt_theme($existing, $type, $theme, $path) {
   return [
-    'paragraph__quotation' => [
+    'paragraph__leggodt_quotation' => [
       'base hook' => 'paragraph',
     ],
-    'paragraph__columns_even' => [
+    'paragraph__leggodt_columns_even' => [
       'base hook' => 'paragraph',
     ],
-    'paragraph__columns_2_uneven' => [
+    'paragraph__leggodt_columns_two_uneven' => [
       'base hook' => 'paragraph',
     ],
-    'paragraph__columns_3_uneven' => [
+    'paragraph__leggodt_columns_three_uneven' => [
       'base hook' => 'paragraph',
     ],
-    'paragraph__heading' => [
+    'paragraph__leggodt_heading' => [
       'base hook' => 'paragraph',
     ],
     'paragraph__leggodt_accordion' => [
@@ -44,7 +44,7 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__leggodt_tabs' => [
       'base hook' => 'paragraph',
     ],
-    'paragraph__timeline' => [
+    'paragraph__leggodt_timeline' => [
       'base hook' => 'paragraph',
     ],
     'field__paragraph__leggodt_column_content' => [

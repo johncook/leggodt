@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_formatted_text.leggodt_text
+    - paragraphs.paragraphs_type.leggodt_formatted_text
+  module:
+    - text
+id: paragraph.leggodt_formatted_text.default
+targetEntityType: paragraph
+bundle: leggodt_formatted_text
+mode: default
+content:
+  leggodt_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

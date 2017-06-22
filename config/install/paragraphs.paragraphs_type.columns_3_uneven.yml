@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: columns_3_uneven
-label: 'Columns (Three Uneven)'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

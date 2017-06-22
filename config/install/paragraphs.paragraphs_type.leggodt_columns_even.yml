@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: leggodt_columns_even
+label: 'Columns (Even)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

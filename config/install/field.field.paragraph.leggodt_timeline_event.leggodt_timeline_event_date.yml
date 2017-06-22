@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_timeline_event_date
+    - paragraphs.paragraphs_type.leggodt_timeline_event
+  module:
+    - datetime
+id: paragraph.leggodt_timeline_event.leggodt_timeline_event_date
+field_name: leggodt_timeline_event_date
+entity_type: paragraph
+bundle: leggodt_timeline_event
+label: Date
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

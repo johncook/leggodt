@@ -1,0 +1,93 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_timeline_events
+    - paragraphs.paragraphs_type.leggodt_timeline
+    - paragraphs.paragraphs_type.leggodt_timeline_event
+  module:
+    - entity_reference_revisions
+id: paragraph.leggodt_timeline.leggodt_timeline_events
+field_name: leggodt_timeline_events
+entity_type: paragraph
+bundle: leggodt_timeline
+label: Events
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      leggodt_timeline_event: leggodt_timeline_event
+    target_bundles_drag_drop:
+      leggodt_timeline:
+        weight: 25
+        enabled: false
+      form:
+        weight: 26
+        enabled: false
+      image:
+        weight: 27
+        enabled: false
+      leggodt_accordion:
+        weight: 28
+        enabled: false
+      leggodt_accordion_section:
+        weight: 29
+        enabled: false
+      leggodt_aside:
+        weight: 30
+        enabled: false
+      leggodt_block:
+        weight: 31
+        enabled: false
+      leggodt_call_to_action:
+        weight: 32
+        enabled: false
+      leggodt_carousel:
+        weight: 33
+        enabled: false
+      leggodt_columns_even:
+        weight: 34
+        enabled: false
+      leggodt_columns_three_uneven:
+        weight: 35
+        enabled: false
+      leggodt_columns_two_uneven:
+        weight: 36
+        enabled: false
+      leggodt_heading:
+        weight: 37
+        enabled: false
+      leggodt_hero:
+        weight: 38
+        enabled: false
+      leggodt_pull_quote:
+        weight: 39
+        enabled: false
+      leggodt_quotation:
+        weight: 40
+        enabled: false
+      leggodt_section:
+        weight: 41
+        enabled: false
+      leggodt_tabs:
+        weight: 42
+        enabled: false
+      leggodt_tabs_section:
+        weight: 43
+        enabled: false
+      leggodt_timeline_event:
+        enabled: true
+        weight: 44
+      simple:
+        weight: 45
+        enabled: false
+      view:
+        weight: -45
+        enabled: false
+field_type: entity_reference_revisions

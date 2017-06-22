@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_columns_two_uneven.leggodt_column_content_2
+    - field.field.paragraph.leggodt_columns_two_uneven.leggodt_column_style_2
+    - paragraphs.paragraphs_type.leggodt_columns_two_uneven
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.leggodt_columns_two_uneven.default
+targetEntityType: paragraph
+bundle: leggodt_columns_two_uneven
+mode: default
+content:
+  leggodt_column_content_2:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  leggodt_column_style_2:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden: {  }

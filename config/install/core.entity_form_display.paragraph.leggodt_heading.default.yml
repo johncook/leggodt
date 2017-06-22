@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_heading.leggodt_heading_level
+    - field.field.paragraph.leggodt_heading.leggodt_heading_text
+    - paragraphs.paragraphs_type.leggodt_heading
+id: paragraph.leggodt_heading.default
+targetEntityType: paragraph
+bundle: leggodt_heading
+mode: default
+content:
+  leggodt_heading_level:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  leggodt_heading_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

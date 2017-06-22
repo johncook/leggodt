@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_citation
+    - paragraphs.paragraphs_type.leggodt_quotation
+id: paragraph.leggodt_quotation.leggodt_citation
+field_name: leggodt_citation
+entity_type: paragraph
+bundle: leggodt_quotation
+label: Citation
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.leggodt_block.leggodt_block
+    - paragraphs.paragraphs_type.leggodt_block
+id: paragraph.leggodt_block.default
+targetEntityType: paragraph
+bundle: leggodt_block
+mode: default
+content:
+  leggodt_block:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }
