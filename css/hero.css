@@ -12,9 +12,9 @@
 .paragraph--type--leggodt-hero > :not(.paragraph--type--leggodt-hero__image) {
     position: relative;
     z-index: 2;
-    width: 80%;
+    width: 60%;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 0 0 auto;
 }
 
 .paragraph--type--leggodt-hero .paragraph--type--leggodt-hero__image {
@@ -23,6 +23,10 @@
     transform: perspective(1px) translateY(-50%);
     left: 0;
     z-index: 0;
+}
+
+.paragraph--type--leggodt-hero .paragraph--type--leggodt-hero__image > div {
+    margin: 0;
 }
 
 .paragraph--type--leggodt-hero > :not(.paragraph--type--leggodt-hero__image)::before {
