@@ -24,19 +24,18 @@ call-to-action:
         minified: false
 carousel:
   css:
+    component:
+      css/carousel.css:
+        minified: false
     theme:
       //cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css:
         - type: external
       //cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css:
         - type: external
-    component:
-      css/carousel.css:
-        minified: false
   js:
     //cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js:
       - type: external
       - minified: true
-    slick/slick.js: {}
     js/carousel.js:
       minified: false
   dependencies:
