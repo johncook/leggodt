@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_call_to_action
   module:
     - link
+_core:
+  default_config_hash: _hHcGMd3a0aqZuLnYQp4yRrgpyps-By-Xgb2k-9K7DY
 id: paragraph.leggodt_call_to_action.default
 targetEntityType: paragraph
 bundle: leggodt_call_to_action

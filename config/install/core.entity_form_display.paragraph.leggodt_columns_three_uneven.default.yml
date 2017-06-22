@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_columns_three_uneven
   module:
     - paragraphs
+_core:
+  default_config_hash: aGwuwXmmgrJjOh0AU-PKHSo4_M9_m-E67wXe5SeLa3c
 id: paragraph.leggodt_columns_three_uneven.default
 targetEntityType: paragraph
 bundle: leggodt_columns_three_uneven
@@ -17,10 +19,10 @@ content:
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content

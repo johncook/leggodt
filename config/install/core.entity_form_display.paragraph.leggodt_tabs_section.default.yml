@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_tabs_section
   module:
     - paragraphs
+_core:
+  default_config_hash: f21r4A_ExF5H0B1-ojNJu8bHgCBERnDflhV7ihz8_3I
 id: paragraph.leggodt_tabs_section.default
 targetEntityType: paragraph
 bundle: leggodt_tabs_section
@@ -25,10 +27,10 @@ content:
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content

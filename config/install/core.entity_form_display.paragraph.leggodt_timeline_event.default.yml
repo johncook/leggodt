@@ -8,6 +8,8 @@ dependencies:
   module:
     - datetime
     - paragraphs
+_core:
+  default_config_hash: 6KW6wiWSpwUd3kL5_-sVTxfesU7BKyMlhS9DV32b2Ao
 id: paragraph.leggodt_timeline_event.default
 targetEntityType: paragraph
 bundle: leggodt_timeline_event
@@ -18,10 +20,10 @@ content:
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content

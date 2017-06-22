@@ -6,6 +6,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_carousel
   module:
     - paragraphs
+_core:
+  default_config_hash: wBqo9gtHO1VpAqbS7lZQxBk3ADsDimHui6axHWfgeY4
 id: paragraph.leggodt_carousel.default
 targetEntityType: paragraph
 bundle: leggodt_carousel
@@ -16,10 +18,10 @@ content:
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content

@@ -6,6 +6,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_timeline
   module:
     - paragraphs
+_core:
+  default_config_hash: O3dbbGksbu36wmIIlT0Y2fIZyCEpFw6PYMBEKwTvGJc
 id: paragraph.leggodt_timeline.default
 targetEntityType: paragraph
 bundle: leggodt_timeline
@@ -16,10 +18,10 @@ content:
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: leggodt_timeline_event
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content

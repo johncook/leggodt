@@ -5,6 +5,8 @@ dependencies:
     - field.field.paragraph.leggodt_heading.leggodt_heading_level
     - field.field.paragraph.leggodt_heading.leggodt_heading_text
     - paragraphs.paragraphs_type.leggodt_heading
+_core:
+  default_config_hash: RDZFjQbqppK92osum2H-knID_MVLiIFzVu9DGgLEzPk
 id: paragraph.leggodt_heading.default
 targetEntityType: paragraph
 bundle: leggodt_heading

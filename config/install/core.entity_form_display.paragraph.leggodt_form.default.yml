@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.field.paragraph.leggodt_form.leggodt_form
     - paragraphs.paragraphs_type.leggodt_form
+_core:
+  default_config_hash: BxaJMVJW8wlr-vsw3UYZfr53pfNvXG5x_wvdoPb4POU
 id: paragraph.leggodt_form.default
 targetEntityType: paragraph
 bundle: leggodt_form
