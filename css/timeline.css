@@ -60,7 +60,7 @@
     background-color: #ffffff;
 }
 
-.paragraph--type--leggodt-timeline .paragraph--type--leggodt-timeline-event > .field--name-leggodt-timeline-event-date {
+.paragraph--type--leggodt-timeline .paragraph--type--leggodt-timeline-event > .metadata {
     flex-grow: 1;
     border-right: 1px solid rgba(128, 128, 128, 128);
     background-color: #d6d6d6;
@@ -68,13 +68,13 @@
     font-size: 250%;
 }
 
-.paragraph--type--leggodt-timeline .zebra-even .paragraph--type--leggodt-timeline-event > .field--name-leggodt-timeline-event-date {
+.paragraph--type--leggodt-timeline .zebra-even .paragraph--type--leggodt-timeline-event > .metadata {
     order: 3;
     border-right: none;
     border-left: 1px solid rgba(128, 128, 128, 128);
 }
 
-.paragraph--type--leggodt-timeline .paragraph--type--leggodt-timeline-event > .field--name-leggodt-timeline-event-date > time {
+.paragraph--type--leggodt-timeline .paragraph--type--leggodt-timeline-event > .metadata > div {
     display: block;
     position: relative;
     top: 50%;

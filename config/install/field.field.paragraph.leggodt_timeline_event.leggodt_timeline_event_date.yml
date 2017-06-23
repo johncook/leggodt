@@ -6,13 +6,15 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - datetime
+_core:
+  default_config_hash: 3jGDUWbdZkg1wwPg7TyYvZzNVDwlaVXRXCcSVdBcBaI
 id: paragraph.leggodt_timeline_event.leggodt_timeline_event_date
 field_name: leggodt_timeline_event_date
 entity_type: paragraph
 bundle: leggodt_timeline_event
 label: Date
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

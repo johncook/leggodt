@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_step
     - field.field.paragraph.leggodt_timeline_event.leggodt_section_content
     - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_date
     - paragraphs.paragraphs_type.leggodt_timeline_event
@@ -9,14 +10,22 @@ dependencies:
     - datetime
     - paragraphs
 _core:
-  default_config_hash: 6KW6wiWSpwUd3kL5_-sVTxfesU7BKyMlhS9DV32b2Ao
+  default_config_hash: JK66qJbCOrT_C8zpLCedln4PTAr9zX-v8vzLrOeaU2A
 id: paragraph.leggodt_timeline_event.default
 targetEntityType: paragraph
 bundle: leggodt_timeline_event
 mode: default
 content:
-  leggodt_section_content:
+  leggodt_timeline_event_step:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  leggodt_section_content:
+    weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs

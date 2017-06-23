@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_timeline_event_step
+    - paragraphs.paragraphs_type.leggodt_timeline_event
+id: paragraph.leggodt_timeline_event.leggodt_timeline_event_step
+field_name: leggodt_timeline_event_step
+entity_type: paragraph
+bundle: leggodt_timeline_event
+label: Step
+description: '"Date" or "Step" should be provided.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

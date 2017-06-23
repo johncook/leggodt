@@ -47,6 +47,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'paragraph__leggodt_timeline' => [
       'base hook' => 'paragraph',
     ],
+    'paragraph__leggodt_timeline_event' => [
+      'base hook' => 'paragraph',
+    ],
     'field__paragraph__leggodt_column_content' => [
       'base hook' => 'paragraph',
     ],

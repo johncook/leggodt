@@ -2,19 +2,30 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_step
     - field.field.paragraph.leggodt_timeline_event.leggodt_section_content
     - field.field.paragraph.leggodt_timeline_event.leggodt_timeline_event_date
     - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - datetime
     - entity_reference_revisions
+_core:
+  default_config_hash: KgkudHvPkHUCcwVPge2m0dJZspqBmEhKxQRPw1kQ9qs
 id: paragraph.leggodt_timeline_event.default
 targetEntityType: paragraph
 bundle: leggodt_timeline_event
 mode: default
 content:
-  leggodt_section_content:
+  leggodt_timeline_event_step:
     weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  leggodt_section_content:
+    weight: 2
     label: hidden
     settings:
       view_mode: default
