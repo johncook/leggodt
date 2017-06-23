@@ -6,6 +6,8 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_pull_quote
   module:
     - text
+_core:
+  default_config_hash: OY0yk2diP7ekW5OglPMQqZnLUb4kt9-xAdawGKl0JXs
 id: paragraph.leggodt_pull_quote.leggodt_quote
 field_name: leggodt_quote
 entity_type: paragraph
@@ -14,7 +16,10 @@ label: Quote
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: "<p>Quote</p>\r\n"
+    format: leggodt_paragraphs_restricted
 default_value_callback: ''
 settings: {  }
 field_type: text_long

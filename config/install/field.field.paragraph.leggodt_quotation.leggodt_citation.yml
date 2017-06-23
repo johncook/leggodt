@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.paragraph.leggodt_citation
     - paragraphs.paragraphs_type.leggodt_quotation
+_core:
+  default_config_hash: cn96RMpSLeW6iQN0x_mqGerrZMuslBNes9vlvJvrlGQ
 id: paragraph.leggodt_quotation.leggodt_citation
 field_name: leggodt_citation
 entity_type: paragraph
