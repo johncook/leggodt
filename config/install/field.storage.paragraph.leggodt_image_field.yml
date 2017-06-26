@@ -6,7 +6,7 @@ dependencies:
     - image
     - paragraphs
 id: paragraph.leggodt_image
-field_name: leggodt_image
+field_name: leggodt_image_field
 entity_type: paragraph
 type: image
 settings:

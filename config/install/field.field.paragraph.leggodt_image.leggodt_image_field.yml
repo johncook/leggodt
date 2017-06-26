@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.leggodt_image
+    - field.storage.paragraph.leggodt_image_field
     - paragraphs.paragraphs_type.leggodt_image
   module:
     - image
-id: paragraph.leggodt_image.leggodt_image
-field_name: leggodt_image
+id: paragraph.leggodt_image.leggodt_image_field
+field_name: leggodt_image_field
 entity_type: paragraph
 bundle: leggodt_image
 label: Image

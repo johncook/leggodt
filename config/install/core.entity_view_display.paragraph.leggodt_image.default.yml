@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.leggodt_image.leggodt_image
+    - field.field.paragraph.leggodt_image.leggodt_image_field
     - paragraphs.paragraphs_type.leggodt_image
   module:
     - image
@@ -11,7 +11,7 @@ targetEntityType: paragraph
 bundle: leggodt_image
 mode: default
 content:
-  leggodt_image:
+  leggodt_image_field:
     weight: 0
     label: hidden
     settings:
