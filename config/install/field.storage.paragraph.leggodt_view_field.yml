@@ -5,8 +5,8 @@ dependencies:
     - paragraphs
     - viewfield
     - views
-id: paragraph.leggodt_view
-field_name: leggodt_view
+id: paragraph.leggodt_view_field
+field_name: leggodt_view_field
 entity_type: paragraph
 type: viewfield
 settings:

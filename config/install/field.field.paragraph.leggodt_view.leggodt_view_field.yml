@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.leggodt_view
+    - field.storage.paragraph.leggodt_view_field
     - paragraphs.paragraphs_type.leggodt_view
   module:
     - viewfield
-id: paragraph.leggodt_view.leggodt_view
-field_name: leggodt_view
+id: paragraph.leggodt_view.leggodt_view_field
+field_name: leggodt_view_field
 entity_type: paragraph
 bundle: leggodt_view
 label: View
