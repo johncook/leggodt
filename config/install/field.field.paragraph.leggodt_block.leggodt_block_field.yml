@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.leggodt_block
+    - field.storage.paragraph.leggodt_block_field
     - paragraphs.paragraphs_type.leggodt_block
-id: paragraph.leggodt_block.leggodt_block
-field_name: leggodt_block
+id: paragraph.leggodt_block.leggodt_block_field
+field_name: leggodt_block_field
 entity_type: paragraph
 bundle: leggodt_block
 label: Block

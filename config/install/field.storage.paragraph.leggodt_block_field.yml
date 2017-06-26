@@ -4,8 +4,8 @@ dependencies:
   module:
     - block
     - paragraphs
-id: paragraph.leggodt_block
-field_name: leggodt_block
+id: paragraph.leggodt_block_field
+field_name: leggodt_block_field
 entity_type: paragraph
 type: entity_reference
 settings:
