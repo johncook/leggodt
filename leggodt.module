@@ -71,6 +71,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'field__paragraph__leggodt_image_field' => [
       'base hook' => 'paragraph',
     ],
+    'field__paragraph__leggodt_quote' => [
+      'base hook' => 'paragraph',
+    ],
 
   ];
 }
