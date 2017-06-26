@@ -68,6 +68,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'field__paragraph__leggodt_heading_text' => [
       'base hook' => 'paragraph',
     ],
+    'field__paragraph__leggodt_image_field' => [
+      'base hook' => 'paragraph',
+    ],
 
   ];
 }
