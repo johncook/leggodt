@@ -4,8 +4,8 @@ dependencies:
   module:
     - contact
     - paragraphs
-id: paragraph.leggodt_form
-field_name: leggodt_form
+id: paragraph.leggodt_form_field
+field_name: leggodt_form_field
 entity_type: paragraph
 type: entity_reference
 settings:

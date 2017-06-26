@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.leggodt_form
+    - field.storage.paragraph.leggodt_form_field
     - paragraphs.paragraphs_type.leggodt_form
-id: paragraph.leggodt_form.leggodt_form
-field_name: leggodt_form
+id: paragraph.leggodt_form.leggodt_form_field
+field_name: leggodt_form_field
 entity_type: paragraph
 bundle: leggodt_form
 label: Form

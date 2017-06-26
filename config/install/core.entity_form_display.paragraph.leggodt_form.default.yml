@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.leggodt_form.leggodt_form
+    - field.field.paragraph.leggodt_form.leggodt_form_field
     - paragraphs.paragraphs_type.leggodt_form
 _core:
   default_config_hash: BxaJMVJW8wlr-vsw3UYZfr53pfNvXG5x_wvdoPb4POU
@@ -11,7 +11,7 @@ targetEntityType: paragraph
 bundle: leggodt_form
 mode: default
 content:
-  leggodt_form:
+  leggodt_form_field:
     weight: 0
     settings: {  }
     third_party_settings: {  }
