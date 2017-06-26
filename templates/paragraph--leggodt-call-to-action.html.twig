@@ -56,7 +56,5 @@
 {% endif %}
 
 <div{{ attributes.addClass(classes) }}>
-  <a href="{{ content.leggodt_call_to_action_link[0]['#url'] }}" >
-    {{ content|without('leggodt_call_to_action_link', 'leggodt_call_to_action_style') }}
-  </a>
+  <a href="{{ content.leggodt_call_to_action_link[0]['#url'] }}" >{{- content|without('leggodt_call_to_action_link', 'leggodt_call_to_action_style') -}}</a>
 </div>

@@ -6,43 +6,54 @@
     display: inline-block;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style > a {
+.leggodt-call-to-action--style > a,
+.leggodt-call-to-action--style > a:hover,
+.leggodt-call-to-action--style > a:active,
+.leggodt-call-to-action--style > a:focus {
     color: #000000;
     max-width: 500px;
     display: inline-block;
     border: none;
     padding: 1rem 2rem;
     text-decoration: none;
+    margin: 10px;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--light > a {
+.leggodt-call-to-action--style--light > a {
     background-color: #f6f6f2;
     box-shadow: 3px 3px #d6d6d2;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--light > a:hover {
-    background: #e6e6e2;
+.leggodt-call-to-action--style--light > a:hover,
+.leggodt-call-to-action--style--light > a:focus {
+    background-color: #e6e6e2;
     box-shadow: 3px 3px #c6c6c2;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--medium > a {
+.leggodt-call-to-action--style--medium > a,
+.leggodt-call-to-action--style--medium > a:active {
     color: #fffeff;
     background-color: #1d84c3;
     box-shadow: 3px 3px #17689c;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--medium > a:hover {
+.leggodt-call-to-action--style--medium > a:hover,
+.leggodt-call-to-action--style--medium > a:focus {
+    color: #fffeff;
     background: #145b88;
     box-shadow: 3px 3px #10486c;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--dark > a {
+.leggodt-call-to-action--style--dark > a,
+.leggodt-call-to-action--style--dark > a:active {
     color: rgba(255, 255, 255, 0.8);
     background-color: #292929;
     box-shadow: 3px 3px #494949;
 }
 
-.paragraph--type--leggodt-call-to-action.leggodt-call-to-action--style--dark > a:hover {
+.leggodt-call-to-action--style--dark > a:hover,
+.leggodt-call-to-action--style--dark > a:focus {
+    color: rgba(255, 255, 255, 0.8);
     background: #393939;
     box-shadow: 3px 3px #595959;
 }
