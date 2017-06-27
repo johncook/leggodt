@@ -83,6 +83,9 @@ function leggodt_theme($existing, $type, $theme, $path) {
     'field__paragraph__leggodt_call_to_action_text' => [
       'base hook' => 'paragraph',
     ],
+    'field__paragraph__leggodt_section_content' => [
+      'base hook' => 'paragraph',
+    ],
     'viewfield__paragraph__leggodt_view_field' => [
       'base hook' => 'paragraph',
     ],

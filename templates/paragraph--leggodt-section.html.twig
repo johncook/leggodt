@@ -51,7 +51,10 @@
 %}
 
 {% if content.leggodt_section_style|render %}
-  {% set classes = classes|merge([ 'leggodt-section--stlye--' ~ content.leggodt_section_style['#items'].getString() ]) %}
+  {% set classes = classes|merge([
+    'leggodt-section--style',
+    'leggodt-section--style--' ~ content.leggodt_section_style['#items'].getString()
+  ]) %}
 {% endif %}
 
 <div{{ attributes.addClass(classes) }}>

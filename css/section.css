@@ -1,11 +1,17 @@
-.leggodt-section--stlye--light {
+.leggodt-section--style {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+}
+
+.leggodt-section--style--light {
     background-color: #FFFFFF;
 }
 
-.leggodt-section--stlye--medium {
-    background-color: #EEEEee;
+.leggodt-section--style--medium {
+    background-color: #EEEEEE;
 }
 
-.leggodt-section--stlye--dark {
+.leggodt-section--style--dark {
     background-color: #DDDDDD;
 }
