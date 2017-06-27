@@ -3,3 +3,13 @@
 .paragraph--type--leggodt-tabs > ul a:focus {
     border: none;
 }
+
+.paragraph--type--leggodt-tabs > .ui-tabs-panel,
+.ui-tabs-panel > .paragraph--type--leggodt-section {
+    overflow: hidden;
+}
+
+.ui-tabs-panel > .paragraph--type--leggodt-section {
+    margin: -1em -1.4em;
+    padding: 1em 1.4em;
+}

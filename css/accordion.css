@@ -3,3 +3,9 @@
 .leggodt-accordion-header a:focus {
     border: none;
 }
+
+.ui-accordion-content > .paragraph--type--leggodt-section {
+    margin: -1em -2.2em;
+    padding: 1em 2.2em;
+    box-sizing: content-box;
+}
