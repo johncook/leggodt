@@ -6,6 +6,10 @@
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/sandbox/johncook/2890232",
   "minimum-stability": "dev",
+  "authors": [{
+    "name": "John Cook",
+    "homepage": "https://www.drupal.org/u/john-cook"
+  }],
   "support": {
     "issues": "https://www.drupal.org/project/issues/2890232",
     "source": "http://cgit.drupalcode.org/sandbox-johncook-2890232"
@@ -14,6 +18,19 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "drupal/leggodt",
+        "version": "8.0.0",
+        "type": "drupal-module",
+        "source": {
+          "url": "https://git.drupal.org/sandbox/johncook/2890232.git",
+          "type": "git",
+          "reference": "refs/heads/8.x-1.x"
+        }
+      }
     }
   ],
   "require": {
