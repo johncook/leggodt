@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_carousel
   module:
     - paragraphs
-_core:
-  default_config_hash: wBqo9gtHO1VpAqbS7lZQxBk3ADsDimHui6axHWfgeY4
 id: paragraph.leggodt_carousel.default
 targetEntityType: paragraph
 bundle: leggodt_carousel

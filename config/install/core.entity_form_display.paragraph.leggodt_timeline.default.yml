@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_timeline
   module:
     - paragraphs
-_core:
-  default_config_hash: O3dbbGksbu36wmIIlT0Y2fIZyCEpFw6PYMBEKwTvGJc
 id: paragraph.leggodt_timeline.default
 targetEntityType: paragraph
 bundle: leggodt_timeline

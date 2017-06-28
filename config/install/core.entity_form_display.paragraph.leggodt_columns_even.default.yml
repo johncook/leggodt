@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_columns_even
   module:
     - paragraphs
-_core:
-  default_config_hash: 5gWqOlLXnK46b1BVqyazmWbplEM9rw8Y-v1xe76jVJY
 id: paragraph.leggodt_columns_even.default
 targetEntityType: paragraph
 bundle: leggodt_columns_even

@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_image
   module:
     - image
-_core:
-  default_config_hash: B2F3oxjpUjgibgm28L3RaevBVaXHEJ-ZNyBBGDlrJjg
 id: paragraph.leggodt_image.default
 targetEntityType: paragraph
 bundle: leggodt_image

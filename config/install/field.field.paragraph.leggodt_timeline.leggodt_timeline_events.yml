@@ -27,12 +27,6 @@ settings:
       leggodt_timeline:
         weight: 25
         enabled: false
-      form:
-        weight: 26
-        enabled: false
-      image:
-        weight: 27
-        enabled: false
       leggodt_accordion:
         weight: 28
         enabled: false
@@ -48,7 +42,13 @@ settings:
       leggodt_call_to_action:
         weight: 32
         enabled: false
+      leggodt_form:
+        weight: 32
+        enabled: false
       leggodt_carousel:
+        weight: 33
+        enabled: false
+      leggodt_formatted_text:
         weight: 33
         enabled: false
       leggodt_columns_even:
@@ -56,6 +56,9 @@ settings:
         enabled: false
       leggodt_columns_three_uneven:
         weight: 35
+        enabled: false
+      leggodt_image:
+        weight: 36
         enabled: false
       leggodt_columns_two_uneven:
         weight: 36
@@ -84,10 +87,7 @@ settings:
       leggodt_timeline_event:
         enabled: true
         weight: 44
-      simple:
-        weight: 45
-        enabled: false
-      view:
-        weight: -45
+      leggodt_view:
+        weight: 44
         enabled: false
 field_type: entity_reference_revisions

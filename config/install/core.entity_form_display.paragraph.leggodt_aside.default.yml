@@ -8,8 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_aside
   module:
     - paragraphs
-_core:
-  default_config_hash: wXlmOM7bhfwW8o1zUVtjKMhNHkxaBY5Xpo2lAQcoXhk
 id: paragraph.leggodt_aside.default
 targetEntityType: paragraph
 bundle: leggodt_aside

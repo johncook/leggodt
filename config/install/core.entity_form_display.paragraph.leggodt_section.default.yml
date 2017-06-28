@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_section
   module:
     - paragraphs
-_core:
-  default_config_hash: JaTrhn425ScflSixwR61GyLrG1N0i6LPbVj1TyfzSCM
 id: paragraph.leggodt_section.default
 targetEntityType: paragraph
 bundle: leggodt_section

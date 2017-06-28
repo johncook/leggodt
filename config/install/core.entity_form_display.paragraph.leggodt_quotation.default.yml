@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_quotation
   module:
     - text
-_core:
-  default_config_hash: nC4O2GalNtCGq8B9WWw_02tB9gicRsjLCKm4v4WKOYI
 id: paragraph.leggodt_quotation.default
 targetEntityType: paragraph
 bundle: leggodt_quotation

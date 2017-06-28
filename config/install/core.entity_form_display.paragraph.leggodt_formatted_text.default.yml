@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_formatted_text
   module:
     - text
-_core:
-  default_config_hash: wGu1uwdpM-arR8B9_Lm3l5Ky_ijmRuOY-JP1hqX4mZU
 id: paragraph.leggodt_formatted_text.default
 targetEntityType: paragraph
 bundle: leggodt_formatted_text

@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_accordion_section
   module:
     - paragraphs
-_core:
-  default_config_hash: igw9pwXgvERSiHVyamzvImuVnWDJG8e5ZGTU6uUxYAc
 id: paragraph.leggodt_accordion_section.default
 targetEntityType: paragraph
 bundle: leggodt_accordion_section

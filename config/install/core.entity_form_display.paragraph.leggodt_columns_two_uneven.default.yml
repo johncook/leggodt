@@ -7,8 +7,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_columns_two_uneven
   module:
     - paragraphs
-_core:
-  default_config_hash: z2aCFqNaFDTeP9iADsAxFVmCyxHxbf2W1yoWARzr1os
 id: paragraph.leggodt_columns_two_uneven.default
 targetEntityType: paragraph
 bundle: leggodt_columns_two_uneven

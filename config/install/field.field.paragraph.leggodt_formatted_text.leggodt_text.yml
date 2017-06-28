@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_formatted_text
   module:
     - text
-_core:
-  default_config_hash: 6nb2tlgBddGoi3W56nKQ4mUPXynNjbxXpRxqBw4tF5k
 id: paragraph.leggodt_formatted_text.leggodt_text
 field_name: leggodt_text
 entity_type: paragraph
@@ -18,7 +16,7 @@ required: false
 translatable: true
 default_value:
   -
-    value: "Text"
+    value: Text
     format: leggodt_paragraphs_restricted
 default_value_callback: ''
 settings: {  }

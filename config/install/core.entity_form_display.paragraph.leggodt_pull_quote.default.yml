@@ -6,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.leggodt_pull_quote
   module:
     - text
-_core:
-  default_config_hash: 34cVE8uJX6PuOx_PgSZ-q5u9brZobE3fmgFTvZvv-Ok
 id: paragraph.leggodt_pull_quote.default
 targetEntityType: paragraph
 bundle: leggodt_pull_quote

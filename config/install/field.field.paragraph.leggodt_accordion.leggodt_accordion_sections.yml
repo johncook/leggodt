@@ -24,64 +24,70 @@ settings:
     target_bundles:
       leggodt_accordion_section: leggodt_accordion_section
     target_bundles_drag_drop:
-      leggodt_accordion:
-        weight: 21
-        enabled: false
-      accordion:
-        weight: 22
-        enabled: false
-      block:
-        weight: 23
-        enabled: false
-      columns_2_uneven:
-        weight: 24
-        enabled: false
-      columns_3_uneven:
-        weight: 25
-        enabled: false
-      columns_even:
-        weight: 26
-        enabled: false
-      form:
-        weight: 27
-        enabled: false
-      heading:
-        weight: 28
-        enabled: false
-      image:
-        weight: 29
-        enabled: false
       leggodt_accordion_section:
         enabled: true
-        weight: 30
+        weight: -45
+      leggodt_accordion:
+        weight: -44
+        enabled: false
+      leggodt_block:
+        weight: -43
+        enabled: false
+      leggodt_carousel:
+        weight: -42
+        enabled: false
+      leggodt_columns_even:
+        weight: -41
+        enabled: false
+      leggodt_columns_three_uneven:
+        weight: -40
+        enabled: false
       leggodt_aside:
-        weight: 31
+        weight: -39
+        enabled: false
+      leggodt_columns_two_uneven:
+        weight: -38
         enabled: false
       leggodt_call_to_action:
-        weight: 32
+        weight: -37
+        enabled: false
+      leggodt_form:
+        weight: -36
+        enabled: false
+      leggodt_formatted_text:
+        weight: -35
         enabled: false
       leggodt_hero:
-        weight: 33
+        weight: -34
         enabled: false
       leggodt_pull_quote:
-        weight: 34
+        weight: -33
+        enabled: false
+      leggodt_heading:
+        weight: -32
         enabled: false
       leggodt_section:
-        weight: 35
+        weight: -31
         enabled: false
-      quotation:
-        weight: 36
+      leggodt_image:
+        weight: -30
         enabled: false
-      simple:
-        weight: 37
+      leggodt_quotation:
+        weight: -29
         enabled: false
-      timeline:
-        weight: 38
+      leggodt_tabs:
+        weight: -28
         enabled: false
-      timeline_event:
-        weight: 39
+      leggodt_tabs_section:
+        weight: -27
         enabled: false
-      view:
-        weight: 40
+      leggodt_timeline:
+        weight: -26
+        enabled: false
+      leggodt_timeline_event:
+        weight: -25
+        enabled: false
+      leggodt_view:
+        weight: -24
         enabled: false
 field_type: entity_reference_revisions

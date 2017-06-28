@@ -3,7 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.leggodt_section_content
+    - paragraphs.paragraphs_type.leggodt_accordion
+    - paragraphs.paragraphs_type.leggodt_accordion_section
+    - paragraphs.paragraphs_type.leggodt_aside
+    - paragraphs.paragraphs_type.leggodt_carousel
+    - paragraphs.paragraphs_type.leggodt_tabs
     - paragraphs.paragraphs_type.leggodt_tabs_section
+    - paragraphs.paragraphs_type.leggodt_timeline_event
   module:
     - entity_reference_revisions
 id: paragraph.leggodt_tabs_section.leggodt_section_content
@@ -19,67 +25,80 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
-    target_bundles: null
+    negate: 1
+    target_bundles:
+      leggodt_accordion: leggodt_accordion
+      leggodt_accordion_section: leggodt_accordion_section
+      leggodt_aside: leggodt_aside
+      leggodt_carousel: leggodt_carousel
+      leggodt_timeline_event: leggodt_timeline_event
+      leggodt_tabs: leggodt_tabs
+      leggodt_tabs_section: leggodt_tabs_section
     target_bundles_drag_drop:
-      leggodt_tabs_section:
-        weight: 21
+      leggodt_formatted_text:
+        weight: -45
         enabled: false
-      block:
-        weight: 22
+      leggodt_heading:
+        weight: -44
         enabled: false
-      columns_2_uneven:
-        weight: 23
+      leggodt_image:
+        weight: -43
         enabled: false
-      columns_3_uneven:
-        weight: 24
-        enabled: false
-      columns_even:
-        weight: 25
-        enabled: false
-      form:
-        weight: 26
-        enabled: false
-      heading:
-        weight: 27
-        enabled: false
-      image:
-        weight: 28
-        enabled: false
-      leggodt_accordion:
-        weight: 29
-        enabled: false
-      leggodt_accordion_section:
-        weight: 30
-        enabled: false
-      leggodt_aside:
-        weight: 31
+      leggodt_block:
+        weight: -42
         enabled: false
       leggodt_call_to_action:
-        weight: 32
+        weight: -41
         enabled: false
-      leggodt_hero:
-        weight: 33
+      leggodt_form:
+        weight: -40
         enabled: false
       leggodt_pull_quote:
-        weight: 34
+        weight: -39
+        enabled: false
+      leggodt_quotation:
+        weight: -38
+        enabled: false
+      leggodt_view:
+        weight: -37
+        enabled: false
+      leggodt_columns_even:
+        weight: -36
+        enabled: false
+      leggodt_columns_two_uneven:
+        weight: -35
+        enabled: false
+      leggodt_columns_three_uneven:
+        weight: -34
         enabled: false
       leggodt_section:
-        weight: 35
+        weight: -33
         enabled: false
-      quotation:
-        weight: 36
+      leggodt_hero:
+        weight: -32
         enabled: false
-      simple:
-        weight: 37
+      leggodt_timeline:
+        weight: -31
         enabled: false
-      timeline:
-        weight: 38
-        enabled: false
-      timeline_event:
-        weight: 39
-        enabled: false
-      view:
-        weight: 40
-        enabled: false
+      leggodt_accordion:
+        enabled: true
+        weight: -30
+      leggodt_accordion_section:
+        enabled: true
+        weight: -29
+      leggodt_aside:
+        enabled: true
+        weight: -28
+      leggodt_carousel:
+        enabled: true
+        weight: -27
+      leggodt_timeline_event:
+        enabled: true
+        weight: -26
+      leggodt_tabs:
+        enabled: true
+        weight: -25
+      leggodt_tabs_section:
+        enabled: true
+        weight: -24
 field_type: entity_reference_revisions
