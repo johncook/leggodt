@@ -1,13 +1,13 @@
 .slick-arrow.slick-prev:before,
 .slick-arrow.slick-next:before {
-    color: #000000;
+  color: #000000;
 }
 
 .slick-slide.leggodt-section--style {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .slick-slide.leggodt-section--style > div {
-    margin: 10px;
+  margin: 10px;
 }

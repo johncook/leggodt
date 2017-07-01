@@ -1,15 +1,15 @@
 .paragraph--type--leggodt-tabs > ul a,
 .paragraph--type--leggodt-tabs > ul a:hover,
 .paragraph--type--leggodt-tabs > ul a:focus {
-    border: none;
+  border: none;
 }
 
 .paragraph--type--leggodt-tabs > .ui-tabs-panel,
 .ui-tabs-panel > .paragraph--type--leggodt-section {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .ui-tabs-panel > .paragraph--type--leggodt-section {
-    margin: -1em -1.4em;
-    padding: 1em 1.4em;
+  margin: -1em -1.4em;
+  padding: 1em 1.4em;
 }

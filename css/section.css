@@ -1,19 +1,19 @@
 .leggodt-section--style {
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 .leggodt-section--style--light {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .leggodt-section--style--medium {
-    background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .leggodt-section--style--dark {
-    background-color: #DDDDDD;
+  background-color: #dddddd;
 }

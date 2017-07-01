@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * @file
+ * 
+ * Includes hooks for the Leggodt module.
+ */
+
+/**
  * Implements hook_theme().
  */
 function leggodt_theme($existing, $type, $theme, $path) {

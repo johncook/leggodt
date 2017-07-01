@@ -1,13 +1,13 @@
 .paragraph--type--leggodt-pull-quote {
-    background: #f7f7f7;
-    border: 1px solid #bbb;
-    border-left: none;
-    border-right: none;
-    font-style: italic;
-    margin: 0 0 10px 10px;
-    padding: 0.5em 1em;
-    max-width: 50%;
-    float: right;
-    font-size: larger;
-    clear: both;
+  background: #f7f7f7;
+  border: 1px solid #bbb;
+  border-left: none;
+  border-right: none;
+  font-style: italic;
+  margin: 0 0 10px 10px;
+  padding: 0.5em 1em;
+  max-width: 50%;
+  float: right;
+  font-size: larger;
+  clear: both;
 }

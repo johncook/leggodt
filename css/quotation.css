@@ -1,23 +1,23 @@
 .paragraph--type--leggodt-quotation {
-    background: #f7f7f7;
-    border-left: 1px solid #bbb;
-    font-style: italic;
-    margin-left: 10px;
-    padding: 0.5em 10px;
+  background: #f7f7f7;
+  border-left: 1px solid #bbb;
+  font-style: italic;
+  margin-left: 10px;
+  padding: 0.5em 10px;
 }
 
 .paragraph--type--leggodt-quotation > blockquote {
-    background: none;
-    border: none;
-    font-style: inherit;
-    margin: 0;
-    padding: 0;
+  background: none;
+  border: none;
+  font-style: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 .paragraph--type--leggodt-quotation > footer {
-    text-align: right;
+  text-align: right;
 }
 
 .paragraph--type--leggodt-quotation > footer:before {
-    content: '\2014\00A0';
+  content: '\2014\00A0';
 }
