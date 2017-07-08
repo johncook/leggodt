@@ -4,18 +4,18 @@ dependencies:
   config:
     - field.field.paragraph.leggodt_block.leggodt_block_field
     - paragraphs.paragraphs_type.leggodt_block
+  module:
+    - block_field
 id: paragraph.leggodt_block.default
 targetEntityType: paragraph
 bundle: leggodt_block
 mode: default
 content:
   leggodt_block_field:
-    weight: 0
+    weight: 1
     label: hidden
-    settings:
-      link: true
-      view_mode: default
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    type: block_field
     region: content
 hidden: {  }

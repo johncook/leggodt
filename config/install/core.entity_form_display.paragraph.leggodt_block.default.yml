@@ -4,16 +4,20 @@ dependencies:
   config:
     - field.field.paragraph.leggodt_block.leggodt_block_field
     - paragraphs.paragraphs_type.leggodt_block
+  module:
+    - block_field
 id: paragraph.leggodt_block.default
 targetEntityType: paragraph
 bundle: leggodt_block
 mode: default
 content:
   leggodt_block_field:
-    weight: 0
-    settings: {  }
+    weight: 1
+    settings:
+      plugin_id: ''
+      settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: block_field_default
     region: content
 hidden:
   created: true

@@ -4,19 +4,18 @@ dependencies:
   config:
     - field.storage.paragraph.leggodt_block_field
     - paragraphs.paragraphs_type.leggodt_block
+  module:
+    - block_field
 id: paragraph.leggodt_block.leggodt_block_field
 field_name: leggodt_block_field
 entity_type: paragraph
 bundle: leggodt_block
 label: Block
 description: ''
-required: false
-translatable: true
+required: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:block'
-  handler_settings:
-    target_bundles: null
-    auto_create: false
-field_type: entity_reference
+  plugin_ids: {  }
+field_type: block_field

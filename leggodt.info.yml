@@ -6,6 +6,7 @@ package: Paragraphs
 dependencies:
   - contact
   - contact_formatter
+  - block_field
   - entity_reference_revisions
   - field
   - file
