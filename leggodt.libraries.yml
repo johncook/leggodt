@@ -14,7 +14,7 @@ accordion:
     - core/drupalSettings
 aside:
   css:
-    componenet:
+    component:
       css/aside.css:
         minified: false
 call-to-action:
