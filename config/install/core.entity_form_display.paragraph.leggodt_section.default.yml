@@ -2,18 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.leggodt_section.leggodt_section_class
     - field.field.paragraph.leggodt_section.leggodt_section_content
     - field.field.paragraph.leggodt_section.leggodt_section_style
     - paragraphs.paragraphs_type.leggodt_section
   module:
     - paragraphs
+_core:
+  default_config_hash: BiJWpAaUJGBmgK_qFB18L2d9sF44YXNWJLyWqW2TNQ0
 id: paragraph.leggodt_section.default
 targetEntityType: paragraph
 bundle: leggodt_section
 mode: default
 content:
-  leggodt_section_content:
+  leggodt_section_class:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  leggodt_section_content:
+    weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs

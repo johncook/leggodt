@@ -2,17 +2,28 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.leggodt_section.leggodt_section_class
     - field.field.paragraph.leggodt_section.leggodt_section_content
     - field.field.paragraph.leggodt_section.leggodt_section_style
     - paragraphs.paragraphs_type.leggodt_section
   module:
     - entity_reference_revisions
     - options
+_core:
+  default_config_hash: 0qi7Kl7hMG2DKR37izcZl_bxFZJsYKYUP5_Z1pc49RU
 id: paragraph.leggodt_section.default
 targetEntityType: paragraph
 bundle: leggodt_section
 mode: default
 content:
+  leggodt_section_class:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   leggodt_section_content:
     weight: 0
     label: hidden

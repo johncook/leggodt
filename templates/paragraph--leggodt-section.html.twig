@@ -50,6 +50,12 @@
   ]
 %}
 
+{% if content.leggodt_section_class|render %}
+  {% set classes = classes|merge([
+    content.leggodt_section_class['#items'].getString()|clean_class
+  ]) %}
+{% endif %}
+
 {% if content.leggodt_section_style|render %}
   {% set classes = classes|merge([
     'leggodt-section--style',
@@ -58,5 +64,5 @@
 {% endif %}
 
 <div{{ attributes.addClass(classes) }}>
-  {{ content|without('leggodt_section_style') }}
+  {{ content|without('leggodt_section_style', 'leggodt_section_class') }}
 </div>
