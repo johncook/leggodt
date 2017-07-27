@@ -54,7 +54,12 @@
       'leggodt-call-to-action--style--' ~ content.leggodt_call_to_action_style['#items'].getString()
     ]) %}
 {% endif %}
+{% set modal = '' %}
+{% if content.leggodt_call_to_action_modal['#items'].getString() %}
+  {% set modal = ' class=use-ajax data-dialog-type=modal' %}
+  {{ attach_library('core/drupal.dialog.ajax') }}
+{% endif %}
 
 <div{{ attributes.addClass(classes) }}>
-  <a href="{{ content.leggodt_call_to_action_link[0]['#url'] }}" >{{- content|without('leggodt_call_to_action_link', 'leggodt_call_to_action_style') -}}</a>
+  <a href="{{ content.leggodt_call_to_action_link[0]['#url'] }}"{{ modal }}>{{- content|without('leggodt_call_to_action_link', 'leggodt_call_to_action_style', 'leggodt_call_to_action_modal') -}}</a>
 </div>

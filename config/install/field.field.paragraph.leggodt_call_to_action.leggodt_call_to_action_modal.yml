@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.leggodt_call_to_action_modal
+    - paragraphs.paragraphs_type.leggodt_call_to_action
+id: paragraph.leggodt_call_to_action.leggodt_call_to_action_modal
+field_name: leggodt_call_to_action_modal
+entity_type: paragraph
+bundle: leggodt_call_to_action
+label: 'Open in modal'
+description: 'Will try and open the link in a modal window. This may not work with some links, especially external links.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

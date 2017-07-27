@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_modal
     - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_link
     - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_style
     - field.field.paragraph.leggodt_call_to_action.leggodt_call_to_action_text
@@ -9,11 +10,23 @@ dependencies:
   module:
     - link
     - options
+_core:
+  default_config_hash: tHf3BzzNJBss833EQfVi7LwYXqFmdqoukxpAVDb29Fw
 id: paragraph.leggodt_call_to_action.default
 targetEntityType: paragraph
 bundle: leggodt_call_to_action
 mode: default
 content:
+  leggodt_call_to_action_modal:
+    weight: 3
+    label: hidden
+    settings:
+      format: true-false
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   leggodt_call_to_action_link:
     weight: 0
     label: hidden
