@@ -39,6 +39,6 @@
     "drupal/contact_formatter": "^1.0",
     "drupal/viewfield": "3.x-dev",
     "drupal/viewsreference": "1.x-dev",
-    "drupal/block_field": "1.x-dev"
+    "drupal/block_field": "^1.0@alpha"
   }
 }
